@@ -1,0 +1,123 @@
+.calculadora {
+   position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 57%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    float: left;
+}
+
+body {
+    background-color: deeppink;
+}
+
+.btnCalculadora {
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnCalculadoraback {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnCalculadoralimpa {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnCalculadora:hover, .btnCalculadoralimpa:hover , .btnCalculadoraback:hover {
+    background-color: black;
+}
+
+#resultado {
+    width: 209px;
+    background-color: white;
+    height: 25px;
+    margin: 2px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+h2 {
+text-align: center;
+color: aliceblue;
+font-size: 20px;
+}
+
+.menu {
+    background-color: rgb(20, 20, 20);
+    overflow: hidden;
+}
+
+.menu ul{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.menu ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+.menu li, a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu a {
+    padding: 15px 30px;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+.rodape {
+    padding: 30px;
+    background: rgb(22, 22, 22);
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: smaller;
+}
+
+.cabecalho {
+    height: 40px;
+    padding: 30px;
+    text-align: left;
+    background: rgb(27, 27, 27, 0.8);
+    overflow: hidden;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.row {
+    padding: 210px;
+}
+

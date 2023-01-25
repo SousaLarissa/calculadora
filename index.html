@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora Online</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Sua Calculadora Online</h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href="./html/pagina2.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+    <div class="calculadora">
+        <h2>Faça seu Cálculo Aqui:</h2>
+        <table>
+           <input id="resultado" type="text" value="" readonly>
+            <tr>
+                <td><button class = "btnCalculadoralimpa" id="btnLimpa">CE</button></td>
+                <td><button class = "btnCalculadoraback" id="btnBack">Back</button></td>
+                <td><button class="btnCalculadora" id="btnDividir">/</button></td>
+                    <td><button class="btnCalculadora" id="btnMultiplicar">*</button></td>               
+            </tr>
+            <tr>
+                <td><button class="btnCalculadora" id="btnValor7">7</button></td>
+                <td><button class="btnCalculadora" id="btnValor8">8</button></td>
+                <td><button class="btnCalculadora" id="btnValor9">9</button></td>
+                <td><button class="btnCalculadora" id="btnSubtrair">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btnCalculadora" id="btnValor4">4</button></td>
+                <td><button class="btnCalculadora" id="btnValor5">5</button></td>
+                <td><button class="btnCalculadora" id="btnValor6">6</button></td>
+                <td><button class="btnCalculadora" id="btnSomar">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="btnCalculadora" id="btnValor1">1</button></td>
+                <td><button class="btnCalculadora" id="btnValor2">2</button></td>
+                <td><button class="btnCalculadora" id="btnValor3">3</button></td>
+                <td rowspan="2"><button class="btnCalculadora" id="btnIgual" style="height: 106px;">=</button></td>
+            </tr>
+            <tr>
+                <td><button class="btnCalculadora" id="btnValor0">0</button></td>
+                <td><button class="btnCalculadora" id="btnPonto">.</button></td>
+                <td><button class="btnCalculadora" id="btnPorcentagem">%</button></td>
+            </tr>
+        </table>
+    </div>
+</div> 
+    <script src="./js/script.js"></script>   
+    <footer class="rodape">
+        By. Larissa Sousa
+    </footer>
+</body>
+</html>

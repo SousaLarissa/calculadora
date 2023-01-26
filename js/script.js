@@ -118,3 +118,8 @@ if(inserirResultado.value === "" || isNaN(inserirResultado.value)){
     inserirResultado.value = inserirResultado.value + ".";
 }
 }
+
+function aviso(){
+    alert("Obrigada!");
+}
+

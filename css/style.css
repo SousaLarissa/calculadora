@@ -1,7 +1,7 @@
 .calculadora {
    position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    top: 57%;
+    top: 65%;
     left: 50%;
    transform: translate(-50%,-50%);
     border-radius: 15px;
@@ -100,7 +100,7 @@ font-size: 20px;
     padding: 30px;
     background: rgb(22, 22, 22);
     text-align: center;
-    margin-top: 20px;
+    margin-top: 150px;
     color: #ffffff;
     font-size: smaller;
 }
@@ -118,6 +118,47 @@ h1 {
 }
 
 .row {
-    padding: 210px;
+    padding: 200px;
 }
 
+#secao1{
+    float:left;
+    width: 30%;
+    margin: 10px;
+    top: 25%;
+    left: 1%;
+    position: absolute;
+}
+
+#secao2 {
+    float:right;
+    width: 30%;
+    background-color: rgb(12, 12, 12);
+    margin: 15px;
+    top: 25%;
+    left: 60%;
+    position: absolute;
+}
+
+form{
+    color:rgb(248, 246, 247);
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+img {
+   margin: 10px;
+   margin-left: 100px;
+}
+
+h4{
+    text-align: center;
+    color: #ffffff;
+    font-size: large;
+}
+.row2 {
+    padding: 150px;
+}
